@@ -1,0 +1,96 @@
+{
+  "orders": [
+    {
+      "id": "ORD-1001",
+      "customer": "Alice Johnson",
+      "amount": 129.99,
+      "status": "new",
+      "date": "2026-06-01T09:30:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": []
+    },
+    {
+      "id": "ORD-1002",
+      "customer": "Brian Smith",
+      "amount": 49.5,
+      "status": "processing",
+      "date": "2026-06-02T11:15:00.000Z",
+      "favorite": true,
+      "archived": false,
+      "notes": [
+        {
+          "id": "N-1",
+          "text": "Customer asked for gift wrap.",
+          "createdAt": "2026-06-02T11:20:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ORD-1003",
+      "customer": "Carla Mendes",
+      "amount": 320,
+      "status": "shipped",
+      "date": "2026-06-03T14:05:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": []
+    },
+    {
+      "id": "ORD-1004",
+      "customer": "David Lee",
+      "amount": 75.25,
+      "status": "delivered",
+      "date": "2026-06-04T08:45:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": []
+    },
+    {
+      "id": "ORD-1005",
+      "customer": "Elena Petrova",
+      "amount": 210,
+      "status": "cancelled",
+      "date": "2026-06-05T17:30:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": [
+        {
+          "id": "N-2",
+          "text": "Customer requested refund.",
+          "createdAt": "2026-06-05T17:40:00.000Z"
+        }
+      ]
+    },
+    {
+      "id": "ORD-1006",
+      "customer": "Frank Müller",
+      "amount": 18.75,
+      "status": "new",
+      "date": "2026-06-06T10:00:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": []
+    },
+    {
+      "id": "ORD-1007",
+      "customer": "Grace Kim",
+      "amount": 540.5,
+      "status": "processing",
+      "date": "2026-06-07T13:20:00.000Z",
+      "favorite": true,
+      "archived": false,
+      "notes": []
+    },
+    {
+      "id": "ORD-1008",
+      "customer": "Hassan Ali",
+      "amount": 99.99,
+      "status": "shipped",
+      "date": "2026-06-08T16:10:00.000Z",
+      "favorite": false,
+      "archived": false,
+      "notes": []
+    }
+  ]
+}
